@@ -1,0 +1,48 @@
+<h3 class="text-center mt-4 mb-4">Introduction</h3>
+
+<vg-player>
+  <vg-overlay-play></vg-overlay-play>
+  <vg-buffering></vg-buffering>
+
+  <vg-scrub-bar>
+    <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+    <vg-scrub-bar-buffering-time></vg-scrub-bar-buffering-time>
+  </vg-scrub-bar>
+
+  <vg-controls>
+    <vg-play-pause></vg-play-pause>
+
+
+    <vg-time-display vgProperty="current" vgFormat="mm:ss"></vg-time-display>
+
+    <vg-scrub-bar style="pointer-events: none;"></vg-scrub-bar>
+
+
+    <vg-time-display vgProperty="total" vgFormat="mm:ss"></vg-time-display>
+
+
+    <vg-mute></vg-mute>
+    <vg-volume></vg-volume>
+
+    <vg-fullscreen></vg-fullscreen>
+  </vg-controls>
+
+  <video [vgMedia]="video" #video id="singleVideo" preload="auto" crossorigin>
+    <source src="../resources/videos/VideoIntroAnonymous.mp4" type="video/mp4">
+  </video>
+</vg-player>
+
+
+<h5 class="mt-5 mb-4">Petites précisions:</h5>
+<p class="text-justify">Le Dark Web, comme le Deep Web ou plus généralement les DarkNets, que nous aborderons ensuite,
+  n'ont rien d'illégal en soit. Comme partout ailleurs, ce sont les activités qui y sont pratiquées, j'insiste bien sur
+  ce point, qui sont susceptibles de l'être.</p>
+<p class="text-justify">Cette référence aux Anonymous est purement illustrative, ils ne sont pas à assimiler avec le
+  DarkWeb même si probablement ils y sont présents.</p>
+<p class="text-justify">Soyez indulgents même masqué je ne suis pas à l'aise devant la caméra mdr</p>
+<p class="text-justify">Gros bisou à Greg qui va pouvoir aller s'acheter son Beretta !!</p>
+
+<div class="mb-5 mt-4 d-flex flex-row justify-content-around">
+  <a class="btn btn-primary btn-lg" routerLink="/" role="button"><< Retour</a>
+  <a class="btn btn-info btn-lg" routerLink="/chapitre-1-les-differents-types-de-web" role="button">Suivant >></a>
+</div>
