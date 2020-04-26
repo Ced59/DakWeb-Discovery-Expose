@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageIntroVideoComponent implements OnInit {
 
+  next = '/chapitre-1-les-differents-types-de-web';
+  previous = '/';
+
   constructor() { }
 
   ngOnInit() {
