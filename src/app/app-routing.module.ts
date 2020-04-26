@@ -5,6 +5,7 @@ import {PageIntroVideoComponent} from './page-intro-video/page-intro-video.compo
 import {ChapterOneComponent} from './chapter-one/chapter-one.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 import {Partie1WebSurfaceComponent} from './chapter-one/partie1-web-surface/partie1-web-surface.component';
+import {Partie2WebProfondComponent} from './chapter-one/partie2-web-profond/partie2-web-profond.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,9 @@ const routes: Routes = [
   },
   { path: 'chapitre-1-les-differents-types-de-web/partie-1-le-web-de-surface',
     component: Partie1WebSurfaceComponent
+  },
+  { path: 'chapitre-1-les-differents-types-de-web/partie-2-le-web-profond',
+    component: Partie2WebProfondComponent
   },
   { path: 'chapitre-1-les-differents-types-de-web',
     component: ChapterOneComponent
