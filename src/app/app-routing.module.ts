@@ -6,6 +6,7 @@ import {ChapterOneComponent} from './chapter-one/chapter-one.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 import {Partie1WebSurfaceComponent} from './chapter-one/partie1-web-surface/partie1-web-surface.component';
 import {Partie2WebProfondComponent} from './chapter-one/partie2-web-profond/partie2-web-profond.component';
+import {Partie3LesDarknetsComponent} from './chapter-one/partie3-les-darknets/partie3-les-darknets.component';
 
 
 const routes: Routes = [
@@ -20,6 +21,9 @@ const routes: Routes = [
   },
   { path: 'chapitre-1-les-differents-types-de-web/partie-2-le-web-profond',
     component: Partie2WebProfondComponent
+  },
+  { path: 'chapitre-1-les-differents-types-de-web/partie-3-les-darknets',
+    component: Partie3LesDarknetsComponent
   },
   { path: 'chapitre-1-les-differents-types-de-web',
     component: ChapterOneComponent

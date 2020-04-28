@@ -22,6 +22,9 @@ import { Chapter1TitleComponent } from './chapter-title/chapter1-title/chapter1-
 import { TitlePageComponent } from './subcomponents/title-page/title-page.component';
 import { Partie2WebProfondComponent } from './chapter-one/partie2-web-profond/partie2-web-profond.component';
 import { SourcesLinksComponent } from './subcomponents/sources-links/sources-links.component';
+import { Partie3LesDarknetsComponent } from './chapter-one/partie3-les-darknets/partie3-les-darknets.component';
+import { DisplaylistComponent } from './subcomponents/displaylist/displaylist.component';
+
 
 
 
@@ -42,7 +45,9 @@ import { SourcesLinksComponent } from './subcomponents/sources-links/sources-lin
     Chapter1TitleComponent,
     TitlePageComponent,
     Partie2WebProfondComponent,
-    SourcesLinksComponent
+    SourcesLinksComponent,
+    Partie3LesDarknetsComponent,
+    DisplaylistComponent,
   ],
   imports: [
     BrowserModule,

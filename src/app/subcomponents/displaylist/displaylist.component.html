@@ -1,0 +1,12 @@
+<h5 class="mt-5 mb-2">{{title}}</h5>
+
+
+<ul class="list-group mb-5">
+  <li *ngFor="let item of list" class="row list-inline-item mt-4">
+    <img [src]="'../resources/images/' + item.imgName" alt="{{item.name}}"
+         class="col-md-2">
+    <div class="font-weight-bold col-md-2">{{item.name}}</div>
+    <div class="font-italic col-md-7">{{item.description}}</div>
+  </li>
+</ul>
+

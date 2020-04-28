@@ -1,1 +1,27 @@
-<p>partie2-web-profond works!</p>
+<app-chapter-title [title]="'Le web profond'"></app-chapter-title>
+
+<app-paragraph-img-left
+  [nomImg]="'iceberg-de.png'"
+  [legend]="'L\'iceberg du Web détaillé'"
+  [para]="'Le Deep Web, ou Web profond peut se définir par opposition au Surface Web comme tout le contenu internet qui n’est pas indexé par les moteurs de recherche standards. Il constitue environ 90% du contenu total d’internet ! Il est constitué pour une grande partie de pages qui ne peuvent être indexées par les algorithmes des moteurs de recherche : des pages à accès limité (lorsqu’une authentification est nécessaire, par exemple), des pages dynamiques (lorsque des hyperliens de navigation sont générés à la demande et diffèrent d’une visite à l’autre), des pages utilisant certains langages informatiques, ou encore des pages spécialisées pour la connexion à des objets connectés.'"
+>
+</app-paragraph-img-left>
+
+<app-paragraph
+  [para]="'Il faut faire attention. De nombreuses sources sur le Web font l\'amalgame entre le Dark Web et le Deep Web ! Annonçant à tort que le Deep Web et le Dark Web sont la même chose ! Le Deep Web est uniquement différencié du Web de surface par sa non-indexation par les moteurs de recherche ! Ainsi, lorsque vous vous connectez à votre Webmail préféré, ou que vous vous identifiez sur votre compte des impôts, vous êtes déjà entré sans le savoir dans le Deep Web ! Car, et heureusement d\'ailleurs, ce sont des espaces reservés qui ne sont pas accessibles par les moteurs de recherche, même si leur portail lui l\'est, et donc fait partie du Web de surface . '">
+
+</app-paragraph>
+
+<app-paragraph-img-right
+  [nomImg]="'deep-web-iceberg-pourcent.jpg'"
+  [legend]="'Proportions approximatives des formes de Web'"
+  [para]="'Le Deep Web représente selon les estimations entre 90 et 96% de la totalité du Web. D\'où la métaphore de l\'Iceberg. La partie émergée étant le Web surfacique...'"
+>
+
+</app-paragraph-img-right>
+
+<app-sources-links [sources]="sources"></app-sources-links>
+
+<app-nav-buttons [previous]="'/chapitre-1-les-differents-types-de-web/partie-1-le-web-de-surface'"
+                 [next]="'/chapitre-1-les-differents-types-de-web/partie-3-les-darknets'">
+</app-nav-buttons>
