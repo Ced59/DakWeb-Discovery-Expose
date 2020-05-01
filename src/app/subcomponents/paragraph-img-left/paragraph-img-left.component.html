@@ -1,6 +1,8 @@
 <div class="row mt-2 mb-2 ">
   <figure class="col-md-6">
-    <img class="col-md-12 img-thumbnail" [src]="'../resources/images/' + nomImg" alt="Card image cap">
+    <a [href]="'/resources/images/' + nomImg" target="_blank">
+      <img class="col-md-12 img-thumbnail" [src]="'../resources/images/' + nomImg" alt="Card image cap">
+    </a>
     <figcaption class="mt-2 text-center font-italic">{{legend}}</figcaption>
   </figure>
   <p class="col-md-6 text-justify">{{para}}</p>
