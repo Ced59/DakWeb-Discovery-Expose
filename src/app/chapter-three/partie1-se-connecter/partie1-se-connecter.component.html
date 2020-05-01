@@ -1,0 +1,27 @@
+<app-title-page [title]="'Connectons nous !'"></app-title-page>
+
+<app-paragraph-img-left [nomImg]="'VPN-connected.png'"
+                        [legend]="'Les sites que je consulterai me localiseront au Canada'"
+                        [para]="'Tout d\'abord, connectons nous à notre VPN préféré. Ici j\'ai choisi un serveur au Canada. Toutes mes requêtes seront envoyées à ce serveur, qui les relaiera afin d\'atteindre le serveur cible. Et dans l\'autre sens me renverra la réponse. Ainsi, le serveur cible de ma requête n\'aura pour informations que celles du serveur VPN, qui sera pour lui son client, contrairement à une connexion directe où mon poste aurait été le client.'"
+
+></app-paragraph-img-left>
+
+<app-paragraph-img-right [nomImg]="'Connect-to-tor.png'"
+                         [legend]="'Tor établit un circuit de différents noeuds pour rediriger mes requêtes'"
+                         [para]="'Après avoir installé et lancé Tor, vous pouvez lancer sa connexion. Tor va ainsi établir le circuit des différents noeuds à travers le monde afin d\'anonymiser le parcours. Au final, le serveur cible n\'aura accès qu\'aux informations du dernier noeud du circuit.'"
+
+></app-paragraph-img-right>
+
+<app-paragraph-img-left [nomImg]="'tor-circuit.jpg'"
+                        [legend]="'Le circuit des noeuds de ma connexion'"
+                        [para]="'On peut visualiser le circuit de notre connexion dans le réseau Tor. Ainsi, ici, on voit que notre connexion passe par 6 noeuds différents, deux en Allemagne, un en France, et trois dont on ne connait même pas la provenance. Le serveur final (représenté ici par l\'adresse en .onion) n\'aura accès qu\'aux informations du dernier noeud. Une fois ce circuit bien établi, nous pouvons considérer que notre connexion est bien sécurisée.'"
+
+></app-paragraph-img-left>
+
+
+<app-paragraph-img-right [nomImg]="'connected-tor-duck.png'"
+                         [legend]="'Trouver les liens du Dark-Web est un peu plus compliqué qu\'avec le Web de surface...'"
+                         [para]="'Et ensuite? La page d\'accueil est par défaut celle de DuckDuckGo, la version onion du moteur de recherche qui existe également pour le Web de surface. On lance une recherche et nous sommes sur le Dark-Web?? Et non!! Comme dit dans la définition du Deep-Web, les sites ne sont pas indexés! Pour trouver ce que l\'on cherche, il faudra trouver des bibliothèques de liens: les Hidden Wiki!'"
+></app-paragraph-img-right>
+
+<app-nav-buttons [previous]="'/chapitre-3-le-dark-web'" [next]="'/chapitre-3-le-dark-web/partie-2-les-hidden-wikis'"></app-nav-buttons>
