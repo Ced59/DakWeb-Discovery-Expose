@@ -1,1 +1,21 @@
-<p>partie2-tor works!</p>
+<app-chapter-title [title]="'The Onion Router Project'"></app-chapter-title>
+
+
+<app-paragraph-img-left [nomImg]="'tor.jpg'" [legend]="'Logo du projet Tor'"
+                        [para]="'Le principe de Tor, le routage en oignon, est développé au milieu des années 1990 par les employés de l\'United States Naval Research Laboratory, le mathématicien Paul Syverson et les informaticiens Michael G. Reed et David Goldschlag, dans le but de protéger les communications des écoutes et analyses de trafic. Le routage en oignon est également développé par la Defense Advanced Research Projects Agency (DARPA) en 1997. '"></app-paragraph-img-left>
+
+<app-paragraph-img-right [nomImg]="'anomysation-ip-tor.jpg'"
+                         [legend]="'La pseudonymisation de l’adresse IP dans les échanges via Tor'"
+                         [para]="'Le but de Tor est de se protéger de l\'analyse de trafic, une forme de surveillance des réseaux qui menace l\'anonymat et la confidentialité des personnes, les activités et les rapports confidentiels commerciaux. Avec Tor, les communications rebondissent à travers un réseau de serveurs distribués (Nœuds), appelés onion routers, qui vous protègent contre les sites web qui enregistrent les pages que vous visitez, contre les observateurs externes, et contre les onion routers eux-mêmes.'"></app-paragraph-img-right>
+
+
+<app-paragraph-img-left [nomImg]="'tor2-connect.jpg'" [legend]="'Comparaison connexion classique / via Tor'"
+                        [para]="'Tor réduit les risques d\'analyses de trafic simples ou sophistiquées, en répartissant vos transactions entre plusieurs endroits de l\'Internet. On ne peut donc pas, en observant un seul point, vous associer à votre destinataire. C\'est comme utiliser un chemin tortueux et difficile à suivre pour semer un poursuivant (tout en effaçant de temps en temps ses traces). Au lieu d\'emprunter un itinéraire direct entre la source et la destination, les paquets de données suivent une trajectoire aléatoire à travers plusieurs serveurs qui font disparaître vos traces. Personne ne peut donc déduire de l\'observation d\'un point unique, ni d\'où viennent, ni où vont les données.'"></app-paragraph-img-left>
+
+
+<app-paragraph-img-right [nomImg]="'TOR-HTTPS1.png'" [legend]="'Utilisation de Tor avec le protocole HTTPS'" [para]="'Tor ne sert pas qu\'à naviguer sur les sites spécifiques au Dark-Web! Il peut être utilisé également sur le Web de surface afin de garantir son anonymat. C\'est pourquoi les précautions de bases de la navigation Web doivent s\'appliquer également avec ce navigateur! Notamment toujours vérifier que le protocole https est bien utilisé sur les sites traitant des données personnelles sensibles.'"></app-paragraph-img-right>
+
+
+<app-sources-links [sources]="sources" [title]="'Pour aller plus loin'" [titleSection]="'Pour aller plus loin :'"></app-sources-links>
+
+<app-nav-buttons [previous]="'/chapitre-2-vers-une-navigation-anonyme/partie-1-les-vpn'" [next]="''"></app-nav-buttons>
