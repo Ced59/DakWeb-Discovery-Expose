@@ -4,7 +4,7 @@
   <a href="{{source.url}}" target="_blank" *ngFor="let source of sources"
      class="list-group-item d-flex flex-row justify-content-around list-group-item-action">
     <div class="font-weight-bold col-6">{{source.name}}</div>
-    <div class="font-italic col-6">{{source.url}}</div>
+    <a class="btn btn-outline-primary col-2" href="{{source.url}}" target="_blank">Voir</a>
   </a>
 </div>
 

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Source} from '../../source';
+import {List} from '../../list';
 
 @Component({
   selector: 'app-partie3-les-darknets',
@@ -8,7 +9,7 @@ import {Source} from '../../source';
 })
 export class Partie3LesDarknetsComponent implements OnInit {
 
-  list = [
+  list: List[] = [
     {
       name: 'Tor',
       imgName: 'tor.jpg',

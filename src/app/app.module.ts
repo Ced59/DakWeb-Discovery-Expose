@@ -24,6 +24,10 @@ import { Partie2WebProfondComponent } from './chapter-one/partie2-web-profond/pa
 import { SourcesLinksComponent } from './subcomponents/sources-links/sources-links.component';
 import { Partie3LesDarknetsComponent } from './chapter-one/partie3-les-darknets/partie3-les-darknets.component';
 import { DisplaylistComponent } from './subcomponents/displaylist/displaylist.component';
+import { ChapterTwoComponent } from './chapter-two/chapter-two.component';
+import { Partie1LesVpnComponent } from './chapter-two/partie1-les-vpn/partie1-les-vpn.component';
+import { Partie2TorComponent } from './chapter-two/partie2-tor/partie2-tor.component';
+import { ImgCenterComponent } from './subcomponents/img-center/img-center.component';
 
 
 
@@ -48,6 +52,10 @@ import { DisplaylistComponent } from './subcomponents/displaylist/displaylist.co
     SourcesLinksComponent,
     Partie3LesDarknetsComponent,
     DisplaylistComponent,
+    ChapterTwoComponent,
+    Partie1LesVpnComponent,
+    Partie2TorComponent,
+    ImgCenterComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,47 @@
+<app-chapter-title [title]="'Les VPNs'"></app-chapter-title>
+
+<app-paragraph-img-left
+  [nomImg]="'vpn-voyage.jpg'"
+  [legend]="'Qu\'est ce qu\'un VPN?'"
+  [para]="'VPN est l’acronyme utilisé pour désigner un Virtual Private Network, c’est-à-dire un réseau privé virtuel. Le VPN sera votre première barrière de sécurité pour aller surfer vers le Dark-Web, mais pas seulement!'"
+>
+</app-paragraph-img-left>
+
+
+<app-paragraph-img-right
+  [nomImg]="'vpnschema2.jpg'"
+  [legend]="'Schema simple du fonctionnement d\'un VPN'"
+  [para]="'Le VPN fonctionne comme un intermédiaire. Il se connecte au routeur ou au modem qui vous fournit internet dans votre maison. Bref, le VPN va créer un réseau local avec les appareils connectés à Internet mais aussi il pourra simuler une connexion depuis n’importe quelle autre partie du monde.'"
+>
+</app-paragraph-img-right>
+
+<app-paragraph-img-left
+  [nomImg]="'vpnschema1.jpg'"
+  [legend]="'Différence entre une connexion normale et sécurisée par VPN'"
+  [para]="'Pour faire simple, car il s\'agit d\'un sujet qui mériterait un exposé à lui seul, un VPN a pour finalité de cacher votre adresse IP lorsque vous vous connectez à un serveur distant. De façon à ce que la votre ne soit pas traçable. Le serveur distant ne verra comme information que l\'adresse IP du serveur VPN utilisé ! Mais néanmoins la simple utilisation du VPN ne peut suffir à être totalement protégé... Il est le premier écran de notre anonymisation sur le Web...'"
+>
+</app-paragraph-img-left>
+
+<app-paragraph-img-right
+  [nomImg]="'euros.jpg'"
+  [legend]="'Il existe pléthore d\'offres pour des VPNs.'"
+  [para]="'Il existe de nombreux VPNs gratuits ou payants. Les gratuits se faisant de plus en plus rares! Et tous ne se valent pas!! Il faut faire attention à plusieurs choses selon le niveau d\'anonymat que l\'on souhaite atteindre! Il faut vérifier le pays de rattachement du VPN (certains gouvernements peuvent demander les renseignements de log), leur technologie employée (certaines sont plus ou moins sécurisées), ainsi que de savoir si le VPN tient un journal de log ou pas... Bien sûr les VPNs gratuits seront le plus souvent les moins sécurisants... Donc gare à l\'utilisation que vous en faites!!'"
+>
+</app-paragraph-img-right>
+
+<app-displaylist
+  [title]="'Quelques VPNs'"
+  [list]="listVPNs"
+>
+</app-displaylist>
+
+
+<app-paragraph-img-left
+  [nomImg]="'NordVPN.png'"
+  [legend]="'Interface de choix du serveur de NordVPN'"
+  [para]="'Pour ma part j\'ai opté pour NordVPN qui selon moi propose assez de garanties sans être trop onéreux...'"></app-paragraph-img-left>
+
+
+<app-nav-buttons [previous]="'/chapitre-2-vers-une-navigation-anonyme'"
+                 [next]="'/chapitre-2-vers-une-navigation-anonyme/partie-2-tor'">
+</app-nav-buttons>
