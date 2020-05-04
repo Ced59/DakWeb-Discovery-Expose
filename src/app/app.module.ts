@@ -32,15 +32,15 @@ import { ChapterThreeComponent } from './chapter-three/chapter-three.component';
 import { Partie3ConclusionComponent } from './chapter-two/partie3-conclusion/partie3-conclusion.component';
 import { Partie1SeConnecterComponent } from './chapter-three/partie1-se-connecter/partie1-se-connecter.component';
 import { Partie2LesHiddenWikisComponent } from './chapter-three/partie2-les-hidden-wikis/partie2-les-hidden-wikis.component';
-import { DesExemplesDeSitesDuDarkWebComponent } from './chapter-three/des-exemples-de-sites-du-dark-web/des-exemples-de-sites-du-dark-web.component';
+import { DesExemplesDeSitesDuDarkWebComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/des-exemples-de-sites-du-dark-web.component';
 import { ParagraphBoldCenterComponent } from './subcomponents/paragraph-bold-center/paragraph-bold-center.component';
-import { SiteVenteArmesComponent } from './chapter-three/des-exemples-de-sites-du-dark-web/site-vente-armes/site-vente-armes.component';
-import { SiteVenteDrogueComponent } from './chapter-three/des-exemples-de-sites-du-dark-web/site-vente-drogue/site-vente-drogue.component';
-import { SiteVenteFauxBilletsComponent } from './chapter-three/des-exemples-de-sites-du-dark-web/site-vente-faux-billets/site-vente-faux-billets.component';
-import { SiteVenteFausseIdentiteComponent } from './chapter-three/des-exemples-de-sites-du-dark-web/site-vente-fausse-identite/site-vente-fausse-identite.component';
-import { SiteVenteCarteBancairesCloneesComponent } from './chapter-three/des-exemples-de-sites-du-dark-web/site-vente-carte-bancaires-clonees/site-vente-carte-bancaires-clonees.component';
-import { SiteRacismeComponent } from './chapter-three/des-exemples-de-sites-du-dark-web/site-racisme/site-racisme.component';
-import { SitePornographiquesComponent } from './chapter-three/des-exemples-de-sites-du-dark-web/site-pornographiques/site-pornographiques.component';
+import { SiteVenteArmesComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-armes/site-vente-armes.component';
+import { SiteVenteDrogueComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-drogue/site-vente-drogue.component';
+import { SiteVenteFauxBilletsComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-faux-billets/site-vente-faux-billets.component';
+import { SiteVenteFausseIdentiteComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-fausse-identite/site-vente-fausse-identite.component';
+import { SiteVenteCarteBancairesCloneesComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-carte-bancaires-clonees/site-vente-carte-bancaires-clonees.component';
+import { SiteRacismeComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-racisme/site-racisme.component';
+import { SitePornographiquesComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-pornographiques/site-pornographiques.component';
 
 
 

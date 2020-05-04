@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
 import {HomeComponent} from './home/home.component';
 import {PageIntroVideoComponent} from './page-intro-video/page-intro-video.component';
 import {ChapterOneComponent} from './chapter-one/chapter-one.component';
@@ -14,81 +14,103 @@ import {ChapterThreeComponent} from './chapter-three/chapter-three.component';
 import {Partie3ConclusionComponent} from './chapter-two/partie3-conclusion/partie3-conclusion.component';
 import {Partie1SeConnecterComponent} from './chapter-three/partie1-se-connecter/partie1-se-connecter.component';
 import {Partie2LesHiddenWikisComponent} from './chapter-three/partie2-les-hidden-wikis/partie2-les-hidden-wikis.component';
-import {DesExemplesDeSitesDuDarkWebComponent} from './chapter-three/des-exemples-de-sites-du-dark-web/des-exemples-de-sites-du-dark-web.component';
-import {SiteVenteArmesComponent} from './chapter-three/des-exemples-de-sites-du-dark-web/site-vente-armes/site-vente-armes.component';
-import {SiteVenteDrogueComponent} from './chapter-three/des-exemples-de-sites-du-dark-web/site-vente-drogue/site-vente-drogue.component';
-import {SiteVenteFauxBilletsComponent} from './chapter-three/des-exemples-de-sites-du-dark-web/site-vente-faux-billets/site-vente-faux-billets.component';
-import {SiteVenteCarteBancairesCloneesComponent} from './chapter-three/des-exemples-de-sites-du-dark-web/site-vente-carte-bancaires-clonees/site-vente-carte-bancaires-clonees.component';
-import {SiteVenteFausseIdentiteComponent} from './chapter-three/des-exemples-de-sites-du-dark-web/site-vente-fausse-identite/site-vente-fausse-identite.component';
-import {SiteRacismeComponent} from './chapter-three/des-exemples-de-sites-du-dark-web/site-racisme/site-racisme.component';
-import {SitePornographiquesComponent} from './chapter-three/des-exemples-de-sites-du-dark-web/site-pornographiques/site-pornographiques.component';
+import {DesExemplesDeSitesDuDarkWebComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/des-exemples-de-sites-du-dark-web.component';
+import {SiteVenteArmesComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-armes/site-vente-armes.component';
+import {SiteVenteDrogueComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-drogue/site-vente-drogue.component';
+import {SiteVenteFauxBilletsComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-faux-billets/site-vente-faux-billets.component';
+import {SiteVenteCarteBancairesCloneesComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-carte-bancaires-clonees/site-vente-carte-bancaires-clonees.component';
+import {SiteVenteFausseIdentiteComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-fausse-identite/site-vente-fausse-identite.component';
+import {SiteRacismeComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-racisme/site-racisme.component';
+import {SitePornographiquesComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-pornographiques/site-pornographiques.component';
 
 
 const routes: Routes = [
-  { path: '',
+  {
+    path: '',
     component: HomeComponent
   },
-  { path: 'intro',
+  {
+    path: 'intro',
     component: PageIntroVideoComponent
   },
-  { path: 'chapitre-1-les-differents-types-de-web/partie-1-le-web-de-surface',
+  {
+    path: 'chapitre-1-les-differents-types-de-web/partie-1-le-web-de-surface',
     component: Partie1WebSurfaceComponent
   },
-  { path: 'chapitre-1-les-differents-types-de-web/partie-2-le-web-profond',
+  {
+    path: 'chapitre-1-les-differents-types-de-web/partie-2-le-web-profond',
     component: Partie2WebProfondComponent
   },
-  { path: 'chapitre-1-les-differents-types-de-web/partie-3-les-darknets',
+  {
+    path: 'chapitre-1-les-differents-types-de-web/partie-3-les-darknets',
     component: Partie3LesDarknetsComponent
   },
-  { path: 'chapitre-2-vers-une-navigation-anonyme/partie-1-les-vpn',
+  {
+    path: 'chapitre-2-vers-une-navigation-anonyme/partie-1-les-vpn',
     component: Partie1LesVpnComponent
   },
-  { path: 'chapitre-2-vers-une-navigation-anonyme/partie-2-tor',
+  {
+    path: 'chapitre-2-vers-une-navigation-anonyme/partie-2-tor',
     component: Partie2TorComponent
   },
-  { path: 'chapitre-2-vers-une-navigation-anonyme/partie-3-conclusion',
+  {
+    path: 'chapitre-2-vers-une-navigation-anonyme/partie-3-conclusion',
     component: Partie3ConclusionComponent
   },
-  { path: 'chapitre-3-le-dark-web/partie-1-se-connecter',
+  {
+    path: 'chapitre-3-le-dark-web/partie-1-se-connecter',
     component: Partie1SeConnecterComponent
   },
-  { path: 'chapitre-3-le-dark-web/partie-2-les-hidden-wikis',
+  {
+    path: 'chapitre-3-le-dark-web/partie-2-les-hidden-wikis',
     component: Partie2LesHiddenWikisComponent
   },
-  { path: 'chapitre-3-le-dark-web/partie-3-des-exemples-de-sites-du-dark-web/site-vente-armes',
+  {
+    path: 'chapitre-3-le-dark-web/partie-3-partie3-des-exemples-de-sites-du-dark-web/site-vente-armes',
     component: SiteVenteArmesComponent
   },
-  { path: 'chapitre-3-le-dark-web/partie-3-des-exemples-de-sites-du-dark-web/site-vente-drogue',
+  {
+    path: 'chapitre-3-le-dark-web/partie-3-partie3-des-exemples-de-sites-du-dark-web/site-vente-drogue',
     component: SiteVenteDrogueComponent
   },
-  { path: 'chapitre-3-le-dark-web/partie-3-des-exemples-de-sites-du-dark-web/site-vente-faux-billets',
+  {
+    path: 'chapitre-3-le-dark-web/partie-3-partie3-des-exemples-de-sites-du-dark-web/site-vente-faux-billets',
     component: SiteVenteFauxBilletsComponent
   },
-  { path: 'chapitre-3-le-dark-web/partie-3-des-exemples-de-sites-du-dark-web/site-vente-carte-bancaire',
+  {
+    path: 'chapitre-3-le-dark-web/partie-3-partie3-des-exemples-de-sites-du-dark-web/site-vente-carte-bancaire',
     component: SiteVenteCarteBancairesCloneesComponent
   },
-  { path: 'chapitre-3-le-dark-web/partie-3-des-exemples-de-sites-du-dark-web/site-vente-fausse-identite',
+  {
+    path: 'chapitre-3-le-dark-web/partie-3-partie3-des-exemples-de-sites-du-dark-web/site-vente-fausse-identite',
     component: SiteVenteFausseIdentiteComponent
   },
-  { path: 'chapitre-3-le-dark-web/partie-3-des-exemples-de-sites-du-dark-web/site-racisme',
+  {
+    path: 'chapitre-3-le-dark-web/partie-3-partie3-des-exemples-de-sites-du-dark-web/site-racisme',
     component: SiteRacismeComponent
   },
-  { path: 'chapitre-3-le-dark-web/partie-3-des-exemples-de-sites-du-dark-web/site-pornographiques',
+  {
+    path: 'chapitre-3-le-dark-web/partie-3-partie3-des-exemples-de-sites-du-dark-web/site-pornographiques',
     component: SitePornographiquesComponent
   },
-  { path: 'chapitre-3-le-dark-web/partie-3-des-exemples-de-sites-du-dark-web',
+  {
+    path: 'chapitre-3-le-dark-web/partie-3-partie3-des-exemples-de-sites-du-dark-web',
     component: DesExemplesDeSitesDuDarkWebComponent
   },
-  { path: 'chapitre-1-les-differents-types-de-web',
+  {
+    path: 'chapitre-1-les-differents-types-de-web',
     component: ChapterOneComponent
   },
-  { path: 'chapitre-2-vers-une-navigation-anonyme',
+  {
+    path: 'chapitre-2-vers-une-navigation-anonyme',
     component: ChapterTwoComponent
   },
-  { path: 'chapitre-3-le-dark-web',
+  {
+    path: 'chapitre-3-le-dark-web',
     component: ChapterThreeComponent
   },
-  { path: '**',
+  {
+    path: '**',
     component: PageNotFoundComponent
   }
 ];
@@ -99,4 +121,5 @@ const routes: Routes = [
   })],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}
