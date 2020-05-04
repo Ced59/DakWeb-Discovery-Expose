@@ -17,7 +17,6 @@ import {Partie2LesHiddenWikisComponent} from './chapter-three/partie2-les-hidden
 import {DesExemplesDeSitesDuDarkWebComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/des-exemples-de-sites-du-dark-web.component';
 import {SiteVenteArmesComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-armes/site-vente-armes.component';
 import {SiteVenteDrogueComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-drogue/site-vente-drogue.component';
-import {SiteVenteFauxBilletsComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-faux-billets/site-vente-faux-billets.component';
 import {SiteVenteCarteBancairesCloneesComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-carte-bancaires-clonees/site-vente-carte-bancaires-clonees.component';
 import {SiteVenteFausseIdentiteComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-fausse-identite/site-vente-fausse-identite.component';
 import {SiteRacismeComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-racisme/site-racisme.component';
@@ -72,10 +71,6 @@ const routes: Routes = [
   {
     path: 'chapitre-3-le-dark-web/partie-3-partie3-des-exemples-de-sites-du-dark-web/site-vente-drogue',
     component: SiteVenteDrogueComponent
-  },
-  {
-    path: 'chapitre-3-le-dark-web/partie-3-partie3-des-exemples-de-sites-du-dark-web/site-vente-faux-billets',
-    component: SiteVenteFauxBilletsComponent
   },
   {
     path: 'chapitre-3-le-dark-web/partie-3-partie3-des-exemples-de-sites-du-dark-web/site-vente-carte-bancaire',
