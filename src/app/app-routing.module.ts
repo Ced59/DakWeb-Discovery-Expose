@@ -15,6 +15,7 @@ import {Partie3ConclusionComponent} from './chapter-two/partie3-conclusion/parti
 import {Partie1SeConnecterComponent} from './chapter-three/partie1-se-connecter/partie1-se-connecter.component';
 import {Partie2LesHiddenWikisComponent} from './chapter-three/partie2-les-hidden-wikis/partie2-les-hidden-wikis.component';
 import {DesExemplesDeSitesDuDarkWebComponent} from './chapter-three/des-exemples-de-sites-du-dark-web/des-exemples-de-sites-du-dark-web.component';
+import {SiteVenteArmesComponent} from './chapter-three/des-exemples-de-sites-du-dark-web/site-vente-armes/site-vente-armes.component';
 
 
 const routes: Routes = [
@@ -48,6 +49,9 @@ const routes: Routes = [
   { path: 'chapitre-3-le-dark-web/partie-2-les-hidden-wikis',
     component: Partie2LesHiddenWikisComponent
   },
+  { path: 'chapitre-3-le-dark-web/partie-3-des-exemples-de-sites-du-dark-web/site-vente-armes',
+    component: SiteVenteArmesComponent
+  },
   { path: 'chapitre-3-le-dark-web/partie-3-des-exemples-de-sites-du-dark-web',
     component: DesExemplesDeSitesDuDarkWebComponent
   },
@@ -66,7 +70,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+    scrollPositionRestoration: 'top'
+  })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
