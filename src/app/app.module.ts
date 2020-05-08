@@ -38,6 +38,7 @@ import { SiteVenteCarteBancairesCloneesComponent } from './chapter-three/partie3
 import { SiteRacismeComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-racisme/site-racisme.component';
 import { SitePornographiquesComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-pornographiques/site-pornographiques.component';
 import {NgxAudioPlayerModule} from 'ngx-audio-player';
+import { Mp3PlayerComponent } from './subcomponents/mp3-player/mp3-player.component';
 
 
 
@@ -78,6 +79,7 @@ import {NgxAudioPlayerModule} from 'ngx-audio-player';
     SiteVenteCarteBancairesCloneesComponent,
     SiteRacismeComponent,
     SitePornographiquesComponent,
+    Mp3PlayerComponent,
   ],
   imports: [
     BrowserModule,

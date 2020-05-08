@@ -23,7 +23,8 @@
               "src/favicon.ico",
               "src/assets",
               "src/resources/images",
-              "src/resources/videos"
+              "src/resources/videos",
+              "src/resources/sounds"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -94,7 +95,8 @@
               "src/favicon.ico",
               "src/assets",
               "src/resources/images",
-              "src/resources/videos"
+              "src/resources/videos",
+              "src/resources/sounds"
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
