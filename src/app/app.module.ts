@@ -40,6 +40,7 @@ import { SiteVenteFausseIdentiteComponent } from './chapter-three/partie3-des-ex
 import { SiteVenteCarteBancairesCloneesComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-carte-bancaires-clonees/site-vente-carte-bancaires-clonees.component';
 import { SiteRacismeComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-racisme/site-racisme.component';
 import { SitePornographiquesComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-pornographiques/site-pornographiques.component';
+import {NgxAudioPlayerModule} from 'ngx-audio-player';
 
 
 
@@ -87,7 +88,8 @@ import { SitePornographiquesComponent } from './chapter-three/partie3-des-exempl
     VgCoreModule,
     VgControlsModule,
     VgOverlayPlayModule,
-    VgBufferingModule
+    VgBufferingModule,
+    NgxAudioPlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

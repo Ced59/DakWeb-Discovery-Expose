@@ -10,10 +10,16 @@ export class ParagraphImgLeftComponent implements OnInit {
   @Input() para;
   @Input() nomImg;
   @Input() legend;
+  @Input() video = false;
+  @Input() nomVideo;
+  linkVideo;
 
   constructor() { }
 
   ngOnInit() {
+    if (this.video) {
+      this.linkVideo = '../resources/videos/' + this.nomVideo;
+    }
   }
 
 }

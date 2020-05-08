@@ -1,9 +1,39 @@
 <div class="row mt-2 mb-2 ">
-  <figure class="col-md-6">
-    <a [href]="'/resources/images/' + nomImg" target="_blank">
-      <img class="col-md-12 img-thumbnail" [src]="'../resources/images/' + nomImg" alt="Card image cap">
-    </a>
-    <figcaption class="mt-2 text-center font-italic">{{legend}}</figcaption>
-  </figure>
+
+  <div *ngIf="video; then thenBlock else elseBlock"></div>
+
+  <ng-template #thenBlock>
+    <vg-player class="col-md-6">
+      <vg-overlay-play></vg-overlay-play>
+      <vg-buffering></vg-buffering>
+      <vg-scrub-bar>
+        <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+        <vg-scrub-bar-buffering-time></vg-scrub-bar-buffering-time>
+      </vg-scrub-bar>
+      <vg-controls>
+        <vg-play-pause></vg-play-pause>
+        <vg-time-display vgFormat="mm:ss" vgProperty="current"></vg-time-display>
+        <vg-scrub-bar style="pointer-events: none;"></vg-scrub-bar>
+        <vg-time-display vgFormat="mm:ss" vgProperty="total"></vg-time-display>
+        <vg-mute></vg-mute>
+        <vg-volume></vg-volume>
+        <vg-fullscreen></vg-fullscreen>
+      </vg-controls>
+      <video #video [vgMedia]="video" crossorigin id="singleVideo" preload="auto">
+        <source src="{{linkVideo}}" type="video/mp4">
+      </video>
+    </vg-player>
+  </ng-template>
+
+  <ng-template #elseBlock>
+    <figure class="col-md-6">
+      <a [href]="'/resources/images/' + nomImg" target="_blank">
+        <img [src]="'../resources/images/' + nomImg" alt="Card image cap" class="col-md-12 img-thumbnail">
+      </a>
+      <figcaption class="mt-2 text-center font-italic">{{legend}}</figcaption>
+    </figure>
+  </ng-template>
+
+
   <p class="col-md-6 text-justify">{{para}}</p>
 </div>
