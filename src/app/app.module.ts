@@ -39,6 +39,12 @@ import { SiteRacismeComponent } from './chapter-three/partie3-des-exemples-de-si
 import { SitePornographiquesComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-pornographiques/site-pornographiques.component';
 import {NgxAudioPlayerModule} from 'ngx-audio-player';
 import { Mp3PlayerComponent } from './subcomponents/mp3-player/mp3-player.component';
+import { SiteRentAHackerComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-rent-a-hacker/site-rent-a-hacker.component';
+import { SitesPlusCoolComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/sites-plus-cool/sites-plus-cool.component';
+import { SiteSurpriseComponent } from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-surprise/site-surprise.component';
+import { ConclusionComponent } from './conclusion/conclusion.component';
+import { Partie4LeBitcoinComponent } from './chapter-three/partie4-le-bitcoin/partie4-le-bitcoin.component';
+import { Partie5DevDarkWebComponent } from './chapter-three/partie5-dev-dark-web/partie5-dev-dark-web.component';
 
 
 
@@ -80,6 +86,12 @@ import { Mp3PlayerComponent } from './subcomponents/mp3-player/mp3-player.compon
     SiteRacismeComponent,
     SitePornographiquesComponent,
     Mp3PlayerComponent,
+    SiteRentAHackerComponent,
+    SitesPlusCoolComponent,
+    SiteSurpriseComponent,
+    ConclusionComponent,
+    Partie4LeBitcoinComponent,
+    Partie5DevDarkWebComponent,
   ],
   imports: [
     BrowserModule,

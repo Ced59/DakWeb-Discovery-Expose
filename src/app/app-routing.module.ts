@@ -21,6 +21,12 @@ import {SiteVenteCarteBancairesCloneesComponent} from './chapter-three/partie3-d
 import {SiteVenteFausseIdentiteComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-vente-fausse-identite/site-vente-fausse-identite.component';
 import {SiteRacismeComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-racisme/site-racisme.component';
 import {SitePornographiquesComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-pornographiques/site-pornographiques.component';
+import {SiteRentAHackerComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-rent-a-hacker/site-rent-a-hacker.component';
+import {SitesPlusCoolComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/sites-plus-cool/sites-plus-cool.component';
+import {SiteSurpriseComponent} from './chapter-three/partie3-des-exemples-de-sites-du-dark-web/site-surprise/site-surprise.component';
+import {ConclusionComponent} from './conclusion/conclusion.component';
+import {Partie4LeBitcoinComponent} from './chapter-three/partie4-le-bitcoin/partie4-le-bitcoin.component';
+import {Partie5DevDarkWebComponent} from './chapter-three/partie5-dev-dark-web/partie5-dev-dark-web.component';
 
 
 const routes: Routes = [
@@ -87,6 +93,30 @@ const routes: Routes = [
   {
     path: 'chapitre-3-le-dark-web/partie-3-partie3-des-exemples-de-sites-du-dark-web/site-pornographiques',
     component: SitePornographiquesComponent
+  },
+  {
+    path: 'chapitre-3-le-dark-web/partie-3-partie3-des-exemples-de-sites-du-dark-web/site-rent-a-hacker',
+    component: SiteRentAHackerComponent
+  },
+  {
+    path: 'chapitre-3-le-dark-web/partie-3-partie3-des-exemples-de-sites-du-dark-web/sites-plus-cools',
+    component: SitesPlusCoolComponent
+  },
+  {
+    path: 'chapitre-3-le-dark-web/partie-3-partie3-des-exemples-de-sites-du-dark-web/site-surprise',
+    component: SiteSurpriseComponent
+  },
+  {
+    path: 'chapitre-3-le-dark-web/partie4-le-bitcoin',
+    component: Partie4LeBitcoinComponent
+  },
+  {
+    path: 'chapitre-3-le-dark-web/partie-5-devenir-dark-web-dev',
+    component: Partie5DevDarkWebComponent
+  },
+  {
+    path: 'chapitre-4-conclusion',
+    component: ConclusionComponent
   },
   {
     path: 'chapitre-3-le-dark-web/partie-3-partie3-des-exemples-de-sites-du-dark-web',
