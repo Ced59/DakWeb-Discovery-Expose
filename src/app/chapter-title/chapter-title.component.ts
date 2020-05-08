@@ -7,8 +7,8 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class ChapterTitleComponent implements OnInit {
 
-  @Input() title;
-  @Input() subTitle;
+  @Input() title: string;
+  @Input() subTitle: string;
 
   constructor() { }
 

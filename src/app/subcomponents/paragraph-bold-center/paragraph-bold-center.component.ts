@@ -7,7 +7,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class ParagraphBoldCenterComponent implements OnInit {
 
-  @Input() para;
+  @Input() para: string;
 
   constructor() { }
 

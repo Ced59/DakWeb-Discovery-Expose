@@ -7,8 +7,8 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class NavButtonsComponent implements OnInit {
 
-  @Input() next;
-  @Input() previous;
+  @Input() next: string;
+  @Input() previous: string;
 
   constructor() { }
 

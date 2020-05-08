@@ -9,7 +9,7 @@ import {Source} from '../../source';
 export class SourcesLinksComponent implements OnInit {
 
   @Input() sources: Source[];
-  @Input() titleSection;
+  @Input() titleSection: string;
 
   constructor() { }
 

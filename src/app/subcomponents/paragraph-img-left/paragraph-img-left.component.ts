@@ -7,12 +7,12 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class ParagraphImgLeftComponent implements OnInit {
 
-  @Input() para;
-  @Input() nomImg;
-  @Input() legend;
+  @Input() para: string;
+  @Input() nomImg: string;
+  @Input() legend: string;
   @Input() video = false;
-  @Input() nomVideo;
-  linkVideo;
+  @Input() nomVideo: string;
+  linkVideo: string;
 
   constructor() { }
 

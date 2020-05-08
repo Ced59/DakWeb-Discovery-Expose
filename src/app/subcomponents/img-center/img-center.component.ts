@@ -7,8 +7,8 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class ImgCenterComponent implements OnInit {
 
-  @Input() photoName;
-  @Input() legend;
+  @Input() photoName: string;
+  @Input() legend: string;
 
   constructor() { }
 
