@@ -1,0 +1,42 @@
+<h3 class="text-center mt-4 mb-4">Conclusion générale</h3>
+
+<vg-player>
+  <vg-overlay-play></vg-overlay-play>
+  <vg-buffering></vg-buffering>
+
+  <vg-scrub-bar>
+    <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+    <vg-scrub-bar-buffering-time></vg-scrub-bar-buffering-time>
+  </vg-scrub-bar>
+
+  <vg-controls>
+    <vg-play-pause></vg-play-pause>
+
+
+    <vg-time-display vgProperty="current" vgFormat="mm:ss"></vg-time-display>
+
+    <vg-scrub-bar style="pointer-events: none;"></vg-scrub-bar>
+
+
+    <vg-time-display vgProperty="total" vgFormat="mm:ss"></vg-time-display>
+
+
+    <vg-mute></vg-mute>
+    <vg-volume></vg-volume>
+
+    <vg-fullscreen></vg-fullscreen>
+  </vg-controls>
+
+  <video [vgMedia]="video" #video id="singleVideo" preload="auto" crossorigin>
+    <source src="../resources/videos/VideoConclusionDarkWeb.mp4" type="video/mp4">
+  </video>
+</vg-player>
+
+
+
+
+
+<app-nav-buttons [previous]="'/chapitre-3-le-dark-web/partie-5-devenir-dark-web-dev'"
+                 [next]="'/'"
+                 [nextText]="'Retour à l\'accueil'"
+></app-nav-buttons>

@@ -2,7 +2,7 @@
 
 <app-img-center [photoName]="'ufdarkweb.png'" [legend]="'Les médias ont fait ce qu\'est devenu le Dark-Web...'"></app-img-center>
 
-<app-paragraph [para]="'Je vous ai donc montré ici une toute petite partie de ce que l\'on appelle le Dark-Web. Les médias, le cinéma en ont au final fait un endroit très sombre où toutes les déviances possibles et imaginables sont possibles sous couvert d\'un anonymat soit disant guaranti... Cette exposé ne changera pas cette image vu la direction qu\'il a prise, mais je voudrais réctifier quelque peu le tir...'">
+<app-paragraph [para]="'Je vous ai donc montré ici une toute petite partie de ce que l\'on appelle le Dark-Web. Les médias, le cinéma en ont au final fait un endroit très sombre où toutes les déviances possibles et imaginables sont possibles sous couvert d\'un anonymat soit disant guaranti... Cet exposé ne changera pas cette image vu la direction qu\'il a prise, mais je voudrais réctifier quelque peu le tir...'">
 </app-paragraph>
 
 <app-paragraph [para]="'Tout sur le Dark-Web n\'est pas illégal ou immoral! Néanmoins, autant il est relativement facile de trouver des choses pas très nettes, que trouver des choses légales est bien plus compliqué (mis à part Facebook qui en est un bon exemple)... Et pour cause: même légales, on préfère souvent que certaines informations restent anonymes, ou du moins de les partager avec un nombre très restreint de personnes. On peut donc imaginer un groupe de chercheurs aux quatres coins du monde utiliser le réseau Tor pour partager entre eux les résultats de leur recherche, sans risque de se les faire voler au passage... Ou comme déjà évoqué avec Facebook, contourner la censure de pays autoritaires en étant relativement protégé des représailles politiques...'">
@@ -11,6 +11,10 @@
 <app-paragraph [para]="'Ainsi tout n\'est pas si `Dark` dans le Dark-Web... Le problème étant comme toujours qu\'un excès de liberté donnée à certaines catégories de personnes feront qu\'elles en abuseront, faisant ressortir les plus mauvais coté du genre humain...'">
 </app-paragraph>
 
-<app-nav-buttons [previous]="'/chapitre-3-le-dark-web/partie3-des-exemples-de-sites-du-dark-web/site-surprise'"
-                 [next]="'/chapitre-4-le-bitcoin'">
-</app-nav-buttons>
+<app-displaylist [title]="'Le Dark-Web ou des Dark-Net dans la culture populaire :'"
+                 [list]="list"
+></app-displaylist>
+
+<app-nav-buttons [previous]="'/chapitre-3-le-dark-web/partie-5-devenir-dark-web-dev'"
+                 [next]="'/conclusion/video'"
+></app-nav-buttons>

@@ -1,1 +1,20 @@
-<p>partie5-dev-dark-web works!</p>
+<app-title-page [title]="'Devenir développeur (Dark) Web'"></app-title-page>
+
+<app-paragraph-img-left [nomImg]="'devdark1.png'"
+                        [legend]="'Il éxiste plusieurs portails de vente de domaine en .onion'"
+                        [para]="'Pour ceux à qui cet exposé aurait donné pour vocation de devenir un acteur du Dark-Web, il est possible de se procurer des noms de domaines, des hébérgements afin de créer vos propres sites, boutiques, avec intégration du paiement en BitCoin.'"
+></app-paragraph-img-left>
+
+<app-paragraph-img-right [nomImg]="'devdark2.png'"
+                         [legend]="'Plusieurs solutions clés en main...'"
+                         [para]="'Il existe de nombreuses offres, avec l\'installation d\'un CMS (WordPress le plus souvent d\'après ce que j\'ai pu voir), même des possibilités de se faire créer totalement par des designers sa boutique clé en main...'"
+></app-paragraph-img-right>
+
+<app-paragraph-img-left [nomImg]="'devdark3.png'"
+                        [legend]="'Vous préférez coder? Pas de soucis!'"
+                        [para]="'Vous préférez, comme moi, coder entièrement votre site? Pas de soucis!! Il existe des hébergements classiques tournant sous Apache, supportant PHP7 (on peut dire qu\'ils sont à jour!), des bases de données MySQL et un accès SFTP pour téléverser vos fichiers.'"
+></app-paragraph-img-left>
+
+<app-nav-buttons [previous]="'/chapitre-3-le-dark-web/partie4-le-bitcoin'"
+                 [next]="'/chapitre-4-conclusion'"
+></app-nav-buttons>

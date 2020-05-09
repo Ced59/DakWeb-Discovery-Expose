@@ -27,6 +27,7 @@ import {SiteSurpriseComponent} from './chapter-three/partie3-des-exemples-de-sit
 import {ConclusionComponent} from './conclusion/conclusion.component';
 import {Partie4LeBitcoinComponent} from './chapter-three/partie4-le-bitcoin/partie4-le-bitcoin.component';
 import {Partie5DevDarkWebComponent} from './chapter-three/partie5-dev-dark-web/partie5-dev-dark-web.component';
+import {ConclusionVideoComponent} from './conclusion-video/conclusion-video.component';
 
 
 const routes: Routes = [
@@ -113,6 +114,10 @@ const routes: Routes = [
   {
     path: 'chapitre-3-le-dark-web/partie-5-devenir-dark-web-dev',
     component: Partie5DevDarkWebComponent
+  },
+  {
+    path: 'conclusion/video',
+    component: ConclusionVideoComponent
   },
   {
     path: 'chapitre-4-conclusion',

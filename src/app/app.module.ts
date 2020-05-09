@@ -45,6 +45,7 @@ import { SiteSurpriseComponent } from './chapter-three/partie3-des-exemples-de-s
 import { ConclusionComponent } from './conclusion/conclusion.component';
 import { Partie4LeBitcoinComponent } from './chapter-three/partie4-le-bitcoin/partie4-le-bitcoin.component';
 import { Partie5DevDarkWebComponent } from './chapter-three/partie5-dev-dark-web/partie5-dev-dark-web.component';
+import { ConclusionVideoComponent } from './conclusion-video/conclusion-video.component';
 
 
 
@@ -92,6 +93,7 @@ import { Partie5DevDarkWebComponent } from './chapter-three/partie5-dev-dark-web
     ConclusionComponent,
     Partie4LeBitcoinComponent,
     Partie5DevDarkWebComponent,
+    ConclusionVideoComponent,
   ],
   imports: [
     BrowserModule,

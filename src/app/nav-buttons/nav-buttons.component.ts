@@ -9,6 +9,7 @@ export class NavButtonsComponent implements OnInit {
 
   @Input() next: string;
   @Input() previous: string;
+  @Input() nextText = 'Suivant >>';
 
   constructor() { }
 
