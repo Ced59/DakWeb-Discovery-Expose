@@ -46,6 +46,7 @@ import { ConclusionComponent } from './conclusion/conclusion.component';
 import { Partie4LeBitcoinComponent } from './chapter-three/partie4-le-bitcoin/partie4-le-bitcoin.component';
 import { Partie5DevDarkWebComponent } from './chapter-three/partie5-dev-dark-web/partie5-dev-dark-web.component';
 import { ConclusionVideoComponent } from './conclusion-video/conclusion-video.component';
+import { SourcesGeneralesComponent } from './sources-generales/sources-generales.component';
 
 
 
@@ -94,6 +95,7 @@ import { ConclusionVideoComponent } from './conclusion-video/conclusion-video.co
     Partie4LeBitcoinComponent,
     Partie5DevDarkWebComponent,
     ConclusionVideoComponent,
+    SourcesGeneralesComponent,
   ],
   imports: [
     BrowserModule,
